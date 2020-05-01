@@ -12,7 +12,7 @@ class ProductTableSeeder extends Seeder
     public function run()
     {
         $product = new \App\Product([
-        	'imagePath' => 'https://static-s3.supermart.ng/productImage/1456847659916_omwpxyz12_carrot_1_kg.jpg',
+        	'imagePath' => 'https://static-s3.supermart.ng/productImage/MILE183.jpg',
         	'title' => 'Carrot',
         	'price' => 100
         ]);
